@@ -6,7 +6,7 @@ phases:
       - echo Logging in to DockerHub...
       - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASS
       - REPOSITORY_URI="docker.io/amarmandhare27/myprojectfe"
-      - CONTAINER_NAME="frontend"
+      - CONTAINER_NAME="frontend-container"
       - IMAGE_TAG="tagname"
   build:
     commands:
